@@ -12,7 +12,13 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
+  fill (109, 181, 116); 
+  ellipse (200,200,380,380); // circle background
 
+  fill (255, 255, 255);
+  ellipse (200,200,230,200); // head
+
+  triangle (50, 65, 80, 25, 70, 75); // right ear
   
 
 }
