@@ -11,17 +11,6 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  fill (255, 242, 207)
-  ellipse (200,200,250,200); // head
-
-  fill (255, 242, 207)
-  ellipse (180,90,35,130); // left ear
-
-  fill (255, 242, 207)
-  ellipse (220,90,35,130); // right ear
-  
-  fill (255, 242, 207)
-  rect (125,270,150,100); // torso
 
   fill (255, 242, 207)
   ellipse (120,300,25,60); // left arm
@@ -30,10 +19,59 @@ void draw(){
   ellipse (283,300,25,60); // right arm
 
   fill (255, 242, 207)
-  ellipse (125,370,25,60); // left leg
+  ellipse (140,370,25,60); // left leg
 
   fill (255, 242, 207)
-  ellipse (270,370,25,60); // right leg
+  ellipse (260,370,25,60); // right leg
+
+  fill (255, 242, 207)
+  rect (125,270,150,100); // torso
+
+  // Left ear
+  strokeWeight (2)
+  fill (255, 242, 207)
+  ellipse (180,90,35,130);
+  fill (255, 222, 214)
+  ellipse (175,95,20,130);
+  
+  // Right ear
+  strokeWeight (2)
+  fill (255, 242, 207)
+  ellipse (220,90,35,130);
+  fill (255, 222, 214)
+  ellipse (225,95,20,130);
+
+  fill (255, 242, 207)
+  ellipse (200,200,250,200); // head
+
+  // Eyes
+  fill (46, 44, 37)
+  ellipse (160,197,25,25); // left eye 
+  fill (255,255,255)
+  ellipse (160,190,12,12);
+  fill (255,255,255)
+  ellipse (160,203,15,8); 
+  fill (46, 44, 37)
+  ellipse (240,197,25,25); // right eye
+  fill (255,255,255)
+  ellipse (240,190,12,12);
+  fill (255,255,255)
+  ellipse (240,203,15,8);
+
+  // Blush
+  strokeWeight (2.5)
+  fill(255, 222, 214)
+  ellipse (130,240,40,30) 
+  fill(255, 222, 214)
+  ellipse (270,240,40,30) 
+
+  fill (46, 44, 37)
+  triangle (198,222,204,222,200,226) // nose
+
+  // Mouth
+  line (200,228,192,239)
+  line (200,228,215,238)
+
 }
 
 //🟡Extra FUN Features Ms. Hall Added
