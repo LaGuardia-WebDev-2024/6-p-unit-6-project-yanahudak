@@ -7,13 +7,33 @@ void setup() {
 
 //🟢Draw Procedure - Runs on Repeat
 void draw(){
-  fill(255,255,255);
+  fill(245, 240, 213);
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
-  
+  fill (255, 242, 207)
+  ellipse (200,200,250,200); // head
 
+  fill (255, 242, 207)
+  ellipse (180,90,35,130); // left ear
+
+  fill (255, 242, 207)
+  ellipse (220,90,35,130); // right ear
+  
+  fill (255, 242, 207)
+  rect (125,270,150,100); // torso
+
+  fill (255, 242, 207)
+  ellipse (120,300,25,60); // left arm
+
+  fill (255, 242, 207)
+  ellipse (283,300,25,60); // right arm
+
+  fill (255, 242, 207)
+  ellipse (125,370,25,60); // left leg
+
+  fill (255, 242, 207)
+  ellipse (270,370,25,60); // right leg
 }
 
 //🟡Extra FUN Features Ms. Hall Added
