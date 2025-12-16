@@ -42,12 +42,16 @@ html{
 
 h2{
   color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
 }
 
 #start{
   text-align: left;
+  color: #B121B6;
 }
 
 #end{
   text-align: right;
+  color: #4b34d0;
 }
